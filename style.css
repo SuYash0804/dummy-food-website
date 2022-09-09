@@ -200,13 +200,11 @@ ul{
     border: 0px;
     border-radius: 50px;
     cursor: pointer;
-}
-.grid_1_button a{
     text-decoration: none;
     color: white;font-family: var(--tfont);
-    
 }
-.grid_1_button a:hover{
+
+a .grid_1_button:hover{
     text-decoration: underline;
 }
 
