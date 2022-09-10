@@ -5,7 +5,6 @@
     margin: 0%;
     scroll-behavior: smooth;
 }
-
 *::selection{
     background-color: yellowgreen;
     color: white;
@@ -19,8 +18,8 @@
 .navbar{
     width: 100%;
     height: 12.5vh;
-    z-index: 2;
     background-color: white;
+    position: relative;
     display: flex;
     flex-wrap: wrap ;
     align-items: center;
@@ -66,9 +65,9 @@ ul{
 }
 
 .main_sect{
-    height: 87.5vh;
-    background-image: url(images/pexels-monicore-1391487.jpg);
-    background-size: 100%;
+    height: 100vh;
+    background: fixed rgb(149, 149, 149) url("https://media.istockphoto.com/photos/frame-of-fresh-vegetables-on-wooden-background-with-copy-space-picture-id612011684?k=20&m=612011684&s=170667a&w=0&h=Le49Lxt1727ZMe1BXWOX-diGWFER-cIRfZtgPo1LD_Y=") center/100% no-repeat;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,22 +167,22 @@ ul{
 }
 
 #img1{
-    background-image: url(images/dgfruit.jpg);
+    background-image: url("https://i.ndtvimg.com/i/2015-11/dragon-fruit_625x350_51448444658.jpg");
 }
 #img2{
-    background-image: url(images/watermelon.jpg);
+    background-image: url("https://www.treehugger.com/thmb/65-mNNyTr7Z06PU5-Of0GHhIM0Q=/500x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/slice-of-watermelon-on-a-plate-with-blur-background-1321894238-92e248648cc347d5a87d1a06572cd2fc.jpg");
 }
 #img3{
-    background-image: url(images/brocolli.jpg);
+    background-image: url("https://assets.epicurious.com/photos/5761cfc58accf290434553a9/master/w_1280,c_limit/steamed-broccoli-with-olive-oil-garlic-and-lemon.jpg");
 }
 #img4{
-    background-image: url(images/carrot.jpg);
+    background-image: url("https://img.livestrong.com/630x/clsd/getty/0fac18b881df4eb599808823e2fe003e.jpg?type=webp");
 }
 #img5{
-    background-image: url(images/corn.jpg);
+    background-image: url("https://img.etimg.com/thumb/msid-83390480,width-300,imgsize-176599,,resizemode-4,quality-100/istock-1061097354.jpg");
 }
 #img6{
-    background-image: url(images/pepper.jpg);
+    background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0MTgxNTM0MzI3MTIxNDA0/bell-peppers-do-the-different-colors-really-taste-any-different.webp");
 }
 
 .grid_1_text h2{
@@ -217,8 +216,8 @@ a .grid_1_button:hover{
 .third_sect{
     width: 100%;
     height: 40vh;
-    background-image: url(images/pexels-monicore-1391487.jpg);
-    background-size: 100%;
+    background: fixed rgb(149, 149, 149) url("https://media.istockphoto.com/photos/frame-of-fresh-vegetables-on-wooden-background-with-copy-space-picture-id612011684?k=20&m=612011684&s=170667a&w=0&h=Le49Lxt1727ZMe1BXWOX-diGWFER-cIRfZtgPo1LD_Y=") center/100% no-repeat;
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,10 +294,8 @@ a .grid_1_button:hover{
 .fifth_sect{
     width: 100%;
     height: 75vh;
-    background-image: url(images/pexels-cottonbro-3298064.jpg);
-    background-size: 100%;
-    background-color: rgb(127, 127, 127);
-    background-blend-mode:multiply;
+    background: fixed rgb(149, 149, 149) url("https://media.istockphoto.com/photos/frame-of-fresh-vegetables-on-wooden-background-with-copy-space-picture-id612011684?k=20&m=612011684&s=170667a&w=0&h=Le49Lxt1727ZMe1BXWOX-diGWFER-cIRfZtgPo1LD_Y=") center/100% no-repeat;
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
