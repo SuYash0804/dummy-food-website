@@ -3,6 +3,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 *::selection{
@@ -33,9 +34,9 @@
 }
 
 #logo{
-    width: 4em;
+    width: 8em;
     height: 4em;
-    padding: 1em 7.5em;
+    padding-left: 4em;
     transition: var(--cs_ts);
 }
 #logo:hover{
@@ -71,7 +72,7 @@ ul{
 }
 
 .main_sect{
-    height: 100vh;
+    height: 87.5vh;
     background: fixed rgb(149, 149, 149) url("https://media.istockphoto.com/photos/frame-of-fresh-vegetables-on-wooden-background-with-copy-space-picture-id612011684?k=20&m=612011684&s=170667a&w=0&h=Le49Lxt1727ZMe1BXWOX-diGWFER-cIRfZtgPo1LD_Y=") center/100% no-repeat;
     background-blend-mode: multiply;
     display: flex;
@@ -90,6 +91,7 @@ ul{
     padding-left: 3em;
     padding-right: 3em;
     padding-bottom: 3em;
+    padding-top: 15em;
 }
 
 .container_1 h1{
@@ -131,10 +133,8 @@ ul{
 }
 
 .second_sect{
-    height: 175vh;
+    height: 200vh;
     width: 100%;
-    padding-top: 3em;
-    padding-bottom: 3em;
     background-color: white;
     display: flex;
     align-items: center;
@@ -143,7 +143,7 @@ ul{
 
 .grid_1{
     width: 85%;
-    height: 100%;
+    height: 85%;
     background-color:  white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -255,8 +255,6 @@ a .grid_1_button:hover{
 .grid_container_2{
     width: 75%;
     height: 90%;
-    padding-top: 35px;
-    padding-bottom: 35px;
     display:  grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
@@ -393,4 +391,34 @@ a .grid_1_button:hover{
     text-shadow: 0px 0px 5px rgb(255, 255, 255);;
     transform: scale(150%);
     z-index: 1;
+}
+
+#home, #gallery, #about, #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a i{
+    font-size: 5rem;
+    text-decoration: none;
+    color: rgba(255, 0, 0,0);
+    z-index: 3;
+    transition: 0.25s ease-in-out;
+}
+a:hover i{
+    font-size: 5rem;
+    text-decoration: none;
+    text-shadow: 0px 0px 15px black;
+    color: rgb(255, 255, 255, 0.75);
+    z-index: 3;
+}
+
+.top_button{
+    transform: rotate(270deg);
+}
+
+.bottom_button{
+    transform: rotate(90deg);
 }
