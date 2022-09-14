@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 *::selection{
     background-color: yellowgreen;
     color: white;
@@ -133,7 +134,7 @@ ul{
 }
 
 .second_sect{
-    height: 200vh;
+    height: 190vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -143,7 +144,7 @@ ul{
 
 .grid_1{
     width: 85%;
-    height: 85%;
+    height: 90%;
     background-color:  white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -151,10 +152,9 @@ ul{
 }
 
 .grid_1_item{
-    height: 100%;
     background-color: white;
     border-radius: 1em;
-    overflow: hidden;
+    overflow:hidden;
     box-shadow: 0px 0px 50px rgba(0,0,0,00.25);
     transition: var(--cs_ts);
 }
@@ -396,18 +396,18 @@ a .grid_1_button:hover{
 #home, #gallery, #about, #footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-a i{
+.btn i{
     font-size: 5rem;
     text-decoration: none;
     color: rgba(255, 0, 0,0);
     z-index: 3;
     transition: 0.25s ease-in-out;
 }
-a:hover i{
+.btn:hover i{
     font-size: 5rem;
     text-decoration: none;
     text-shadow: 0px 0px 15px black;
