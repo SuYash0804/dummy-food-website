@@ -15,7 +15,8 @@
 
 </head>
 
-<body>
+<body onload="loaderFunction()">
+    <div id="pre-loader"><span></span></div>
     <nav class="navbar" id="navbar">
         <a href="#" target="_blank"><img
                 src="https://www.pikpng.com/pngl/b/168-1681132_image-g-ery-logo-suitable-vegetarians-100-vegetarian.png"
@@ -243,6 +244,12 @@
             </ul>
         </div>
     </section>
+    <script>
+        const preLoader= document.getElementById("pre-loader");
+        function loaderFunction(){
+            preLoader.style.display="none"
+        }
+    </script>
 </body>
 
 </html>
